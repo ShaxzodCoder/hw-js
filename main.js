@@ -46,20 +46,34 @@
   // }
 
     // !Часы 2
-  var time = Number(prompt('Введите время в цифрах'));
+  // var time = Number(prompt('Введите время в цифрах'));
 
-  if(time >= 5 && time <12){
-    console.log(`доброе утро`);
-  }else if(time >= 12 && time < 18){
-    console.log(`добрый день`);
-  }else if(time >= 18 && time < 22){
-    console.log(`добрый вечер`);
-  }else if(time >= 22 && time <= 24){
-    console.log(`доброй ночи`);
-  }else if(time >= 1 && time <= 4){
-    console.log(`доброй ночи`);
-  }else if(time > 24){
-    console.log(`не верное число`);
+  // if(time >= 5 && time <12){
+  //   console.log(`доброе утро`);
+  // }else if(time >= 12 && time < 18){
+  //   console.log(`добрый день`);
+  // }else if(time >= 18 && time < 22){
+  //   console.log(`добрый вечер`);
+  // }else if(time >= 22 && time <= 24){
+  //   console.log(`доброй ночи`);
+  // }else if(time >= 1 && time <= 4){
+  //   console.log(`доброй ночи`);
+  // }else if(time > 24){
+  //   console.log(`не верное число`);
+  // }else{
+  //   console.log(`Что-то пошло не так`); 
+  // }
+
+    // !Мячи Это задание не получилось 
+  
+  var a = Number(prompt('Введите число мячей в зале'));
+
+  if (a == '1'){
+    console.log(`${a} мяч`);
+  }else if(a >= '2' && a <= '4'){
+    console.log(`${a} мяча`);
+  }else if(a == '0' || a >= '5' && a <= '10'){
+    console.log(`${a} мячей`);
   }else{
-    console.log(`Что-то пошло не так`); 
+    console.log(`Что-то пошло не так`);
   }
